@@ -47,8 +47,14 @@ btnSearch.addEventListener('click', () => {
 					</span>
 				</div>
 			</div>
-`
-		})
+			`
+		}).catch(() =>{
+			if (nameCountry.length === 0){
+				result.innerHTML = `<h3>Empty value</h3>`
+			}else {
+				result.innerHTML = `<h3>The value of the state is wrong</h3>`
+			}
+	})
 })
 // capital[0]
 // flags.svg

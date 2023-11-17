@@ -79,3 +79,10 @@ body {
 	font-weight: 500;
 	color: #222a43;
 }
+
+.conteiner span{
+	color: #5d6274;
+}
+.conteiner h3{
+	text-align: center;
+}

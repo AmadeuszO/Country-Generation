@@ -3,6 +3,7 @@ const inputCountry = document.querySelector('#country')
 const result = document.querySelector('#result')
 
 btnSearch.addEventListener('click', () => {
+	// const nameCountry = 'poland'
 	const nameCountry = inputCountry.value
 	const url = `https://restcountries.com/v3.1/name/${nameCountry}?fullText=true`
 	console.log(url)
